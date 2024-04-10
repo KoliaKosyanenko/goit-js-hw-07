@@ -12,3 +12,83 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/*---------------------TASK-1----------------------*/
+
+.item {
+  width: 392px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #f6f6fe;
+  margin-bottom: 24px;
+  padding: 16px;
+  transition: box-shadow 300ms;
+}
+
+.item:hover {
+  box-shadow: 5px 12px 20px 1px rgba(0, 0, 255, 0.2);
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul > li > ul > li {
+  border: 1px solid rgb(128, 128, 128);
+  color: rgb(46, 47, 66);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4%;
+  text-align: left;
+  padding: 8px 16px;
+}
+
+li {
+  list-style: none;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 24px;
+  color: #2e2f42;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 4%;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+
+
+/*---------------------TASK-2----------------------*/
+
+
+
+
+/*---------------------TASK-3----------------------*/
+
+
+
+
+/*---------------------TASK-4----------------------*/
+
+
+
+
+/*---------------------TASK-5----------------------*/
+
+
+
+
+/*---------------------TASK-6----------------------*/
