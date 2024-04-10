@@ -95,7 +95,7 @@ input {
   height: 40px;
   border: 1px solid rgb(128, 128, 128);
   border-radius: 4px;
-  padding-left: 16px;
+  padding: 0 16px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -140,4 +140,83 @@ input {
 
 /*---------------------TASK-5----------------------*/
 
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.change-color {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px 8px 16px;
+  margin: 16px 0px;
+  border-radius: 8px;
+  background: rgb(78, 117, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #f6f6fe;
+  border: none;
+  cursor: pointer;
+}
+
 /*---------------------TASK-6----------------------*/
+
+#controls {
+  padding: 32px;
+  border-radius: 8px;
+  background: rgb(246, 246, 254);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#controls > input {
+  width: 150px;
+  height: 40px;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 8px;
+}
+
+#controls > button:first-of-type {
+  width: 120px;
+  height: 40px;
+  margin: 0px 16px;
+  border-radius: 8px;
+  background: rgb(78, 117, 255);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #f6f6fe;
+}
+
+#controls > button:last-of-type {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgb(255, 78, 78);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #f6f6fe;
+}
+
+#boxes {
+  border-radius: 8px;
+  background: rgb(246, 246, 254);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 16px;
+  gap: 16px;
+  height: 100%;
+  padding: 32px;
+}
